@@ -25,6 +25,11 @@ const todosData = [
         id: 4,
         description: 'Написать программу',
         completed: false
+    },
+    {
+        id: 5,
+        description: 'Заплатить за интернет',
+        completed: false
     }
 ]
 
