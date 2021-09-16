@@ -4,27 +4,27 @@ const todosData = [
     {
         id: 0,
         description: 'Сходить в магазин',
-        complited: false
+        completed: false
     },
     {
         id: 1,
         description: 'Сварить борщ',
-        complited: false
+        completed: false
     },
     {
         id: 2,
         description: 'Выкинуть мусор',
-        complited: false
+        completed: false
     },
     {
         id: 3,
         description: 'Сделать задание',
-        complited: false
+        completed: false
     },
     {
         id: 4,
         description: 'Написать программу',
-        complited: false
+        completed: false
     }
 ]
 

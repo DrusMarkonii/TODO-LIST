@@ -1,10 +1,14 @@
 import React from "react";
 
 const ToDoItem = props => {
+    const resolvedClass = {
+        textDecoration: 'line-through'
+    }
     return (
         <div className="todo-item">
             <div className="description-wrapper">
-                <p>
+                <p style = {
+                    props.completed == true ? resolvedClass : {}}>
                     {props.description}
                 </p>
             </div>
